@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.primary{
+  display:flex;
+  flex-direction: row;
+  text-align:center;
+  margin-bottom:20px;
+  padding:10px;
+  margin-left:380px;
+}
+
+#clientNames{
+  margin-right:20px;
+  padding:10px;
+  color:azure;
+  background-color:cornflowerblue;
+  font-weight: bolder;
+}
+
+#notesButton{
+  padding:10px;
+  background-color: cornflowerblue;
+  color: azure;
+}
+
+table{
+  margin:auto;
+  width:100%;
+}
+table,th,td{
+  border:3px solid pink;
+  text-align: center;
+  padding:5px;
+}
+
+th,td{
+  margin:20px;
+}
+
+#notesTd{
+  overflow-x:scroll;
+  width:100%;
+}
+
+#textInput{
+  width:40%;
+  height:30%;
+}
+
+#notes{
+  padding-right:auto;
+}
+
+.history h1{
+  font-style:italic;
+  color:blue;
+
+}
+
+.history{
+  background-color:burlywood;
+}
